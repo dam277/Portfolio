@@ -7,9 +7,13 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "astro": "astro",
     "preview": "astro preview",
-    "astro": "astro"
+    "check": "astro check",
+    "test": "vitest run --passWithNoTests",
+    "build": "astro build",
+    "build:staging": "astro build --base /Portfolio",
+    "build:prod": "astro build --base /dam277"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
