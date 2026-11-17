@@ -1,5 +1,9 @@
 ---
 import background from '../assets/background.svg';
+
+import { useTranslations } from "@utils/i18n";
+
+const t = useTranslations(Astro.currentLocale);
 ---
 
 <div id="container">
@@ -7,8 +11,9 @@ import background from '../assets/background.svg';
 	<main>
 		<section id="hero">
 			<h1>
-				Portfolio in maintenance <br />
-				Back soon with new features and content!
+				{t('title')} <br />
+				{t('subtitle')}
+
 			</h1>
 		</section>
 	</main>
