@@ -7,11 +7,20 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "astro": "astro",
     "preview": "astro preview",
-    "astro": "astro"
+    "check": "astro check",
+    "test": "vitest run --passWithNoTests",
+    "build": "astro build",
+    "build:staging": "astro build --base /Portfolio",
+    "build:prod": "astro build --base /dam277"
   },
   "dependencies": {
     "astro": "^6.0.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3",
+    "vitest": "^5.1.0"
   }
 }
