@@ -8,6 +8,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "build:staging": "astro build --base /Portfolio",
+    "build:prod": "astro build --base /dam277",
     "preview": "astro preview",
     "astro": "astro"
   },
