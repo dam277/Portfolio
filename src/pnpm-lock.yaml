@@ -441,15 +441,12 @@ packages:
     cpu: [x64]
     os: [win32]
 
-<<<<<<< HEAD
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
 
   '@jridgewell/remapping@2.3.5':
     resolution: {integrity: sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   '@jridgewell/resolve-uri@3.1.3':
     resolution: {integrity: sha512-lhTtjtoEArWBjismtfS761S9Hlyn+nIZqOZVYoZ1Xn82PMNMVnk+jj/NhC4fAXGTs7ydONcJiR5vyQBTMDu27g==}
     engines: {node: '>=6.0.0'}
@@ -648,7 +645,6 @@ packages:
   '@shikijs/vscode-textmate@10.0.2':
     resolution: {integrity: sha512-83yeghZ2xxin3Nj8z1NMd/NCuca+gsYXswywDy5bHvwlWL8tpTQmzGeUuHd9FC3E/SBEMvzJRwWEOz5gGes9Qg==}
 
-<<<<<<< HEAD
   '@tailwindcss/node@4.3.5':
     resolution: {integrity: sha512-yT53FzV4ke0cr/BguDxhWMpm5MJu1O2muzk+tKw6lKHjODAsYArBbWwFbJiaksfzFv1tpkO9QHGzmfs1hJT66g==}
 
@@ -742,8 +738,6 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7 || ^8
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   '@tybys/wasm-util@0.10.5':
     resolution: {integrity: sha512-dOGOPxlaNV+G046mZzN+9C0dAcQZeSKcXiVaM0TYy/LM4ttTmgSBDxYfovcYI8Em3+eAbiAYpvWLOv8+ZVRJKA==}
 
@@ -1024,13 +1018,10 @@ packages:
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
-<<<<<<< HEAD
   enhanced-resolve@5.27.0:
     resolution: {integrity: sha512-Do6BB2xzlcc/odFg+XEYyneAx4T/WfywO71yw9ePS2tVfRsf7JVR4mUeELadIeHzixkzbG5DpluiEFPi2WGfYQ==}
     engines: {node: '>=10.13.0'}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
     engines: {node: '>=0.12'}
@@ -1113,12 +1104,9 @@ packages:
   github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
 
-<<<<<<< HEAD
   graceful-fs@4.2.12:
     resolution: {integrity: sha512-iuyGF2E4oafQfPsRrG2wtY2ILupMhvtdrhzrxB+0VcjsPpSPttpfYdjnGFGsTi5MaJFjI1jOKHPQ6UTbTj9TAw==}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   h3@1.15.8:
     resolution: {integrity: sha512-iOH6Vl8mGd9nNfu9C0IZ+GuOAfJHcyf3VriQxWaSWIB76Fg4BnFuk4cxBxjmQSSxJS664+pgjP6e7VBnUzFfcg==}
 
@@ -1182,13 +1170,10 @@ packages:
     resolution: {integrity: sha512-e6rvdUCiQCAuumZslxRJWR/Doq4VpPR82kqclvcS0efgt430SlGIk05vdCN58+VrzgtIcfNODjozVielycD4Sw==}
     engines: {node: '>=16'}
 
-<<<<<<< HEAD
   jiti@2.7.0:
     resolution: {integrity: sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==}
     hasBin: true
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   js-yaml@4.1.1:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
     hasBin: true
@@ -1206,7 +1191,6 @@ packages:
     resolution: {integrity: sha512-o+NO+8WrRiQEE4/7nwRJhN1HWpVmJm511pBHUxPLtp0BUISzlBplORYSmTclCnJvQq2tKu/sgl3xVpkc7ZWuQQ==}
     engines: {node: '>=6'}
 
-<<<<<<< HEAD
   lightningcss-android-arm64@1.33.0:
     resolution: {integrity: sha512-gEpRTalKdosp4Bb8qWtc2iOgE5SeIHlpS1up9bFq2wAyYhl1UdTObYiHe98zEM9SQvSoqQZ1IQD0JNpg3Ml5pg==}
     engines: {node: '>= 12.0.0'}
@@ -1281,8 +1265,6 @@ packages:
     resolution: {integrity: sha512-WkUDrojuJs0xkgGf2udWxa3yGBRxPtxUkB79i6aCZLRgc7PM8fZe9TosfPDcvEpQZbuFASnHYmRLBLUbmLOIIA==}
     engines: {node: '>= 12.0.0'}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
@@ -1664,7 +1646,6 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-<<<<<<< HEAD
   tailwindcss@4.3.5:
     resolution: {integrity: sha512-FcQk9BuffmEHJP2G0XmB2SplU1aLTI7j07Kunk+U74Ny+XiWOtzXz9aujFZ/avntw1e2cOv/3PkgzflQ7gX2vQ==}
 
@@ -1672,8 +1653,6 @@ packages:
     resolution: {integrity: sha512-NHFiWnAbMJxNNpBwiO7jJVGDuqMxT9/oV8v57RR+fgBQShkJil5inGD8/xWy0hjLyHQyX1tu27QANhlz3KBqCg==}
     engines: {node: '>=6'}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   tiny-inflate@1.0.3:
     resolution: {integrity: sha512-pkY1fj1cKHb2seWDy0B16HeWyczlJA9/WW3u3c4z/NiWDsO3DOU5D7nhTLE9CF0yXv/QZFY7sEJmj24dK+Rrqw==}
 
@@ -2425,7 +2404,6 @@ snapshots:
   '@img/sharp-win32-x64@0.34.5':
     optional: true
 
-<<<<<<< HEAD
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.6.0
@@ -2436,8 +2414,6 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   '@jridgewell/resolve-uri@3.1.3': {}
 
   '@jridgewell/sourcemap-codec@1.6.0': {}
@@ -2578,7 +2554,6 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-<<<<<<< HEAD
   '@tailwindcss/node@4.3.5':
     dependencies:
       '@jridgewell/remapping': 2.3.5
@@ -2647,8 +2622,6 @@ snapshots:
       tailwindcss: 4.3.5
       vite: 7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1)
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   '@tybys/wasm-util@0.10.5':
     dependencies:
       tslib: 2.8.1
@@ -2684,22 +2657,14 @@ snapshots:
 
   '@ungap/structured-clone@1.3.0': {}
 
-<<<<<<< HEAD
   '@vitest/mocker@5.1.0(vite@7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1))':
-=======
-  '@vitest/mocker@5.1.0(vite@7.3.1(yaml@2.9.1))':
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@vitest/spy': 5.1.0
       estree-walker: 3.0.3
       magic-string: 1.4.5
     optionalDependencies:
-<<<<<<< HEAD
       vite: 7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1)
-=======
-      vite: 7.3.1(yaml@2.9.1)
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
 
   '@vitest/spy@5.1.0': {}
 
@@ -2792,11 +2757,7 @@ snapshots:
 
   assertion-error@2.0.1: {}
 
-<<<<<<< HEAD
   astro@6.0.6(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.59.0)(typescript@6.0.3)(yaml@2.9.1):
-=======
-  astro@6.0.6(rollup@4.59.0)(typescript@6.0.3)(yaml@2.9.1):
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
     dependencies:
       '@astrojs/compiler': 3.0.1
       '@astrojs/internal-helpers': 0.8.0
@@ -2848,13 +2809,8 @@ snapshots:
       unist-util-visit: 5.1.0
       unstorage: 1.17.4
       vfile: 6.0.3
-<<<<<<< HEAD
       vite: 7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1)
       vitefu: 1.1.2(vite@7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1))
-=======
-      vite: 7.3.1(yaml@2.9.1)
-      vitefu: 1.1.2(vite@7.3.1(yaml@2.9.1))
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
       xxhash-wasm: 1.1.0
       yargs-parser: 22.0.0
       zod: 4.3.6
@@ -2977,12 +2933,7 @@ snapshots:
 
   destr@2.0.5: {}
 
-<<<<<<< HEAD
   detect-libc@2.1.2: {}
-=======
-  detect-libc@2.1.2:
-    optional: true
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
 
   devalue@5.6.4: {}
 
@@ -3021,14 +2972,11 @@ snapshots:
 
   emoji-regex@10.6.0: {}
 
-<<<<<<< HEAD
   enhanced-resolve@5.27.0:
     dependencies:
       graceful-fs: 4.2.12
       tapable: 2.3.4
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   entities@4.5.0: {}
 
   entities@6.0.1: {}
@@ -3107,11 +3055,8 @@ snapshots:
 
   github-slugger@2.0.0: {}
 
-<<<<<<< HEAD
   graceful-fs@4.2.12: {}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   h3@1.15.8:
     dependencies:
       cookie-es: 1.2.2
@@ -3231,11 +3176,8 @@ snapshots:
     dependencies:
       is-inside-container: 1.0.0
 
-<<<<<<< HEAD
   jiti@2.7.0: {}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   js-yaml@4.1.1:
     dependencies:
       argparse: 2.0.1
@@ -3248,7 +3190,6 @@ snapshots:
 
   kleur@4.1.5: {}
 
-<<<<<<< HEAD
   lightningcss-android-arm64@1.33.0:
     optional: true
 
@@ -3298,8 +3239,6 @@ snapshots:
       lightningcss-win32-arm64-msvc: 1.33.0
       lightningcss-win32-x64-msvc: 1.33.0
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   longest-streak@3.1.0: {}
 
   lru-cache@11.2.7: {}
@@ -3956,13 +3895,10 @@ snapshots:
       picocolors: 1.1.1
       sax: 1.6.0
 
-<<<<<<< HEAD
   tailwindcss@4.3.5: {}
 
   tapable@2.3.4: {}
 
-=======
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
   tiny-inflate@1.0.3: {}
 
   tinybench@6.2.3: {}
@@ -4084,11 +4020,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-<<<<<<< HEAD
   vite@7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1):
-=======
-  vite@7.3.1(yaml@2.9.1):
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
     dependencies:
       esbuild: 0.27.4
       fdir: 6.5.0(picomatch@4.0.7)
@@ -4098,7 +4030,6 @@ snapshots:
       tinyglobby: 0.2.17
     optionalDependencies:
       fsevents: 2.3.3
-<<<<<<< HEAD
       jiti: 2.7.0
       lightningcss: 1.33.0
       yaml: 2.9.1
@@ -4111,18 +4042,6 @@ snapshots:
     dependencies:
       '@types/chai': 5.2.3
       '@vitest/mocker': 5.1.0(vite@7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1))
-=======
-      yaml: 2.9.1
-
-  vitefu@1.1.2(vite@7.3.1(yaml@2.9.1)):
-    optionalDependencies:
-      vite: 7.3.1(yaml@2.9.1)
-
-  vitest@5.1.0(vite@7.3.1(yaml@2.9.1)):
-    dependencies:
-      '@types/chai': 5.2.3
-      '@vitest/mocker': 5.1.0(vite@7.3.1(yaml@2.9.1))
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
@@ -4133,11 +4052,7 @@ snapshots:
       tinybench: 6.2.3
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
-<<<<<<< HEAD
       vite: 7.3.1(jiti@2.7.0)(lightningcss@1.33.0)(yaml@2.9.1)
-=======
-      vite: 7.3.1(yaml@2.9.1)
->>>>>>> 115b2b0d69a7fa91d3b0247cc89b6935ae541c8f
       why-is-node-running: 3.2.1
     transitivePeerDependencies:
       - msw
