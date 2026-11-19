@@ -1,4 +1,4 @@
-# 🚀 Portfolio
+# Portfolio
 
 Welcome to my portfolio project coded with Astro framework.
 
@@ -6,10 +6,9 @@ Hope you enjoy !
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Languages
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -21,24 +20,25 @@ Hope you enjoy !
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 1. [Features](#features)
 2. [Contributors](#contributors)
-3. [License & Links](#license--links)
+3. [Links](#links)
 
 ---
 
-## ✨ Features
+## Features
 
 * **About me:**
 * **My career path**
 * **My knowledge**
 * **My projects**
+* **My projects roadmap**
 
 ---
 
-## 🤝 Contributors
+## Contributors
 
 | **[Damien Loup](https://github.com/dam277)** | 
 | :---: | 
@@ -47,6 +47,6 @@ Hope you enjoy !
 
 ---
 
-## 🔗 License & Links
+## Links
 
-* **Live Project:** [github.io/dam277](https://dam277.github.io/dam277/)
+* **Live Project in production:** [github.io/dam277](https://dam277.github.io/dam277/)
