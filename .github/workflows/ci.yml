@@ -5,6 +5,7 @@ on:
     branches: [develop, main]
   push:
     branches: ['feature/**']
+  workflow_dispatch:
 
 permissions:
   contents: read

@@ -3,6 +3,7 @@ name: CD - Deploy Staging
 on:
   push:
     branches: [develop]
+  workflow_dispatch:
 
 permissions:
   contents: write
