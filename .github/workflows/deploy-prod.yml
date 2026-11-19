@@ -3,6 +3,7 @@ name: CD - Deploy Production
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -14,9 +15,6 @@ concurrency:
 jobs:
   deploy-prod:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
 
     steps:
       - name: Checkout repository
@@ -45,4 +43,4 @@ jobs:
           personal_token: ${{ secrets.PROD_DEPLOY_TOKEN }}
           external_repository: dam277/dam277
           publish_branch: gh-pages
-          publish_dir: ./src/dist
+          publish_dir: ./dist

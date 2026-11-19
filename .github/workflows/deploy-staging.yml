@@ -3,6 +3,7 @@ name: CD - Deploy Staging
 on:
   push:
     branches: [develop]
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,9 +15,6 @@ concurrency:
 jobs:
   deploy-staging:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
 
     steps:
       - name: Checkout repository
@@ -43,4 +41,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src/dist
+          publish_dir: ./dist
