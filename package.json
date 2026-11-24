@@ -13,7 +13,8 @@
     "test": "vitest run --passWithNoTests",
     "build": "astro build",
     "build:staging": "astro build --base /Portfolio",
-    "build:prod": "astro build --base /dam277"
+    "build:prod": "astro build --base /dam277",
+    "new": "node scripts/create-content.js"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
