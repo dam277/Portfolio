@@ -1,0 +1,1 @@
+import{n as t}from"./router.Bimwx440.js";document.addEventListener("astro:page-load",()=>{const e=document.getElementById("language-picker");e&&e.addEventListener("change",()=>{e.value&&t(e.value)})});
