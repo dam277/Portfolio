@@ -1,25 +1,32 @@
 ---
-import { getLocalizedPath, getSwitchLocaleUrl, useTranslations } from "@/utils/i18n";
+import { getLocalizedPath, useTranslations } from "@/utils/i18n";
 import LanguagePicker from "@/components/common/LanguagePicker.astro";
 
+const currentPath = Astro.url.pathname;
 const currentLocale = Astro.currentLocale;
 const t = useTranslations(currentLocale);
 
 // Navigation links
-const homeUrl = getLocalizedPath("", currentLocale);
-const aboutUrl = getLocalizedPath("about", currentLocale);
-const projectsUrl = getLocalizedPath("projects", currentLocale);
+const navLinks = [
+    { url: getLocalizedPath("", currentLocale), label: t("nav.home") },
+    { url: getLocalizedPath("about", currentLocale), label: t("nav.about") },
+    { url: getLocalizedPath("projects", currentLocale), label: t("nav.projects") }
+];
 ---
 
 <header class="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800/80">
-    <div class="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a class="font-semibold text-white tracking-tight hover:text-zinc-300 transition" href={homeUrl}>Portfolio - Damien Loup</a>
+    <div class="mx-auto px-28 h-16 flex items-center justify-between">
+        <span class="font-semibold text-white tracking-tight transition">Portfolio - Damien Loup</span>
     
         <nav class="max-w-4xl mx-auto px-6 py-2 flex items-center justify-between">
             <ul class="flex space-x-4">
-                <li><a class="text-zinc-400 hover:text-zinc-200 transition" href={homeUrl}>Home</a></li>
-                <li><a class="text-zinc-400 hover:text-zinc-200 transition" href={aboutUrl}>About</a></li>
-                <li><a class="text-zinc-400 hover:text-zinc-200 transition" href={projectsUrl}>Projects</a></li>
+                {
+                    navLinks.map((link) => (
+                        <li class:list={["transition", "px-2", link.url === currentPath ? "text-white" : "text-zinc-400", "hover:text-zinc-200"]}>
+                            <a href={link.url}>{link.label}</a>
+                        </li>
+                    ))
+                }
             </ul>
         </nav>
 

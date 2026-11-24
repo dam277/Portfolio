@@ -1,4 +1,7 @@
 {
-    "title": "Portfolio in maintenance",
-    "subtitle": "Back soon with new features and content!"
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects"
+    }
 }
