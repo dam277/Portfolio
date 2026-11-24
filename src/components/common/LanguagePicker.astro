@@ -1,0 +1,37 @@
+---
+import { getSwitchLocaleUrl, LOCALES, type Locale } from "@/utils/i18n";
+
+const currentLocale = Astro.currentLocale ?? "en";
+---
+
+<select
+  id="language-picker"
+  aria-label="Select language"
+  class="bg-zinc-950 text-zinc-400 hover:text-zinc-200 transition border border-zinc-800 rounded-md px-2 py-1 text-xs cursor-pointer focus:outline-none focus:border-zinc-600"
+>  
+  {
+    LOCALES.map((locale) => {
+      const url = getSwitchLocaleUrl(Astro.url, locale as Locale);
+      return (
+        <option value={url} selected={locale === currentLocale}>
+          {locale.toUpperCase()}
+        </option>
+      );
+    })
+  }
+</select>
+
+<script>
+  import { navigate } from "astro:transitions/client";
+
+  document.addEventListener("astro:page-load", () => {
+    const select = document.getElementById("language-picker") as HTMLSelectElement | null;
+    
+    if (!select) return;
+
+    select.addEventListener("change", () => {
+      if (select.value)
+        navigate(select.value);
+    });
+  });
+</script>

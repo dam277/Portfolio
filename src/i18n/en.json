@@ -1,4 +1,12 @@
 {
-    "title": "Portfolio in maintenance",
-    "subtitle": "Back soon with new features and content!"
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects"
+    },
+    "footer": {
+        "location": "Switzerland",
+        "techStack": "Built with ",
+        "source": "Source Code"
+    }
 }
