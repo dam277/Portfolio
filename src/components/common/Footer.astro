@@ -1,7 +1,38 @@
 ---
+import { useTranslations } from "@/utils/i18n";
 
+const currentYear = new Date().getFullYear();
+
+const currentLocale = Astro.currentLocale;
+const t = useTranslations(currentLocale);
 ---
 
-<footer>
-    
+<footer class="border-t border-zinc-800/80 mt-auto bg-zinc-950">
+  <div class="mx-auto px-28 py-8 grid grid-cols-3 items-center text-xs font-mono text-zinc-500">
+    <div class="flex items-center gap-2.5 justify-start">
+      <p>&copy; {currentYear} Damien Loup &bull; {t("footer.location")}</p>
+    </div>
+
+    <div class="flex justify-center text-center">
+      <p class="text-zinc-500">
+        {t("footer.techStack")}
+        <span class="text-zinc-300">Astro</span> & <span class="text-zinc-300">TypeScript</span>
+      </p>
+    </div>
+
+    <div class="flex items-center gap-6 justify-end">
+      <a href="https://github.com/dam277" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-200 transition">
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/damien-loup-685976256/" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-200 transition">
+        LinkedIn
+      </a>
+      <a href="mailto:damien.loup14@gmail.com" class="hover:text-zinc-200 transition">
+        Email
+      </a>
+      <a href="https://github.com/dam277/Portfolio" target="_blank" rel="noopener noreferrer" class="hover:text-zinc-200 transition border-l border-zinc-800 pl-6 text-zinc-400">
+        {t("footer.source")}
+      </a>
+    </div>
+  </div>
 </footer>

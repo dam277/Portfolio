@@ -3,5 +3,10 @@
         "home": "Home",
         "about": "About",
         "projects": "Projects"
+    },
+    "footer": {
+        "location": "Switzerland",
+        "techStack": "Built with ",
+        "source": "Source Code"
     }
 }
